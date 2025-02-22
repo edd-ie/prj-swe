@@ -1,0 +1,2 @@
+Transaction: 06/05/2024 OMEGA RESTAURANT Debit 51.14 Dining, Buyer: Hugh Janus
+Transaction: 06/17/2024 CIRCLE K / IRVING # 2541- Debit 81.05 Gas, Buyer: Hugh Janus

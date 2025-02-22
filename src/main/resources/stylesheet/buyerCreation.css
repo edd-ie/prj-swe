@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+#buyerCreation{
+    -fx-min-height: 700px;
+    -fx-min-width: 1100px;
+    -fx-max-height: 750px;
+    -fx-max-width: 1150px;
+    -fx-background: #ffffff;
+    -fx-font-family: 'Inter', sans-serif;
+}
+
+#buyerCreationView{
+    -fx-max-height: 650px;
+    -fx-max-width: 1000px;
+    -fx-font-family: 'Inter', sans-serif;
+    -fx-background-radius: 15px;
+    -fx-border-style: solid;
+    -fx-border-radius: 15px;
+    -fx-border-width: 1px;
+}
+
+#addBuyerDiv, #listBuyersDiv{
+    -fx-border-radius: 15px;
+    -fx-background-radius: 15px;
+    -fx-pref-height: 650px;
+    -fx-pref-width: 500px;
+    -fx-alignment: top-center;
+    -fx-padding: 120px 0px 0px 0px;
+    -fx-spacing: 10px;
+}
+
+#listBuyersDiv{
+    -fx-border-style: solid;
+    -fx-background-color: #353434;
+}
+
+#h1AddBuyer{
+    -fx-text-alignment: center;
+    -fx-font-weight: 400;
+    -fx-font-size: 50px;
+    -fx-padding: 0px 0px 80px 0px;
+}
+
+#submitBtnDiv{
+    -fx-border-style: solid;
+    -fx-border-radius: 12px;
+    -fx-padding: 5px 10px;
+    -fx-border-width: 1px;
+    -fx-max-width: 100px;
+    -fx-min-width: 100px;
+    -fx-max-height: 40px;
+    -fx-min-height: 40px;
+    -fx-alignment: center;
+    -fx-cursor: hand;
+    -fx-font-size: 22px;
+    -fx-font-weight: 100;
+}
+#submitBtnDiv:hover{
+    -fx-border-color: #040000;
+    -fx-border-width: 2px;
+    -fx-background-radius: 12px;
+    -fx-underline: 1px;
+    -fx-font-weight: 400;
+}
+
+#inputFormDiv{
+    -fx-pref-height: 40px;
+    -fx-max-width: 420px;
+    -fx-alignment: center-right;
+    -fx-padding: 0px 0px 0px 10px;
+    -fx-spacing: 10px;
+}
+
+#inputFormDiv Label{
+    -fx-font-size: 20px;
+    -fx-font-weight: 400;
+}
+
+#inputBuyerText{
+    -fx-border-style: none;
+    -fx-border-radius: 15px;
+    -fx-border-width: 0px;
+    -fx-pref-height: 34px;
+    -fx-pref-width: 300px;
+}
+

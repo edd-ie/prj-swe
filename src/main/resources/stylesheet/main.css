@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+#homePage {
+    -fx-max-height: 700px;
+    -fx-max-width: 1100px;
+    -fx-padding: 20px 20px 20px 20px;
+    -fx-content-display: center;
+    -fx-background: #ffffff;
+    -fx-font-family: 'Inter', sans-serif;
+}
+
+#bankStatementHeader{
+    -fx-pref-width: 600px;
+    -fx-alignment: center;
+    -fx-font-family: 'Playfair Display', serif;
+}
+
+#header{
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-font-family: 'Playfair Display', serif;
+}
+
+#bankStatementView{
+    -fx-background-size: contain;
+    -fx-border-style: dashed;
+    -fx-border-radius: 15px;
+    -fx-border-width: 4px;
+    -fx-border-color: #bbb5ff;
+    -fx-pref-height: 600px;
+    -fx-pref-width: 550px;
+    -fx-alignment: top-center;
+    -fx-cursor: hand;
+    -fx-padding: 120px 0px 0px 0px;
+}
+
+#bankStatementView:hover{
+    -fx-border-color: rgb(132, 151, 133);
+}
+
+
+#uploadIcon{
+    -fx-pref-height: 100px;
+    -fx-pref-width: 100px;
+}
+
+#uploadText{
+    -fx-text-alignment: center;
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+}
+
+#subUploadText{
+    -fx-text-alignment: center;
+    -fx-alignment: bottom-center;
+    -fx-font-size: 11px;
+    -fx-font-weight: 100;
+}
